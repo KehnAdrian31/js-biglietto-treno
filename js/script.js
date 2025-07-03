@@ -9,7 +9,7 @@ if(age < 18){
     finalPrice = basePrice - ( basePrice *  20 / 100 );
 }
 else if(age > 65){
-    finalPrice = basePrice ( basePrice * 40 / 100 );
+    finalPrice = basePrice - ( basePrice *  40 / 100 );
 }
 
 else{
